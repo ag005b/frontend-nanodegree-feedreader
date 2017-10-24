@@ -1,4 +1,5 @@
-#Instructions to Run
+# Instructions to Run
+
 Open index.html in your broswer
 
 # Project Overview
