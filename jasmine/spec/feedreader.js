@@ -112,7 +112,7 @@ $(function() {
         });
 
          
-        it('ensures when a new feed is loaded by the loadFeed function that the content actually changes', function() {
+        it('ensures when a new feed is loaded by the loadFeed function that the content actually changes', function(done) {
             loadFeed(2, function() {
                 expect($('.feed').html()).not.toEqual(initialContent);
                 done();
